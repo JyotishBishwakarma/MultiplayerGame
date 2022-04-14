@@ -10,7 +10,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "gold"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 1,
-    "bird": 0
+    "item": "silver"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 0
+    "item": "pizza"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "space"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 1,
-    "bird": 0
+    "item": "pen"
   },
   {
     "id": 6,
@@ -75,7 +75,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 0
+    "item": "mind"
   },
   {
     "id": 7,
@@ -88,7 +88,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "soul"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 1,
-    "bird": 0
+    "item": "reality"
   },
   {
     "id": 9,
@@ -114,7 +114,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "car"
   },
   {
     "id": 10,
@@ -127,7 +127,7 @@
     "win": 1,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "apple"
   },
   {
     "id": 11,
@@ -140,7 +140,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 1,
-    "bird": 0
+    "item": "time"
   },
   {
     "id": 12,
@@ -153,7 +153,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "power"
   },
   {
     "id": 13,
@@ -166,7 +166,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 0
+    "item": "ego"
   },
   {
     "id": 14,
@@ -179,7 +179,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 1,
-    "bird": 0
+    "item": "bike"
   },
   {
     "id": 15,
@@ -192,7 +192,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "laptop"
   },
   {
     "id": 16,
@@ -205,7 +205,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 1,
-    "bird": 0
+    "item": "flower"
   },
   {
     "id": 17,
@@ -218,7 +218,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 0
+    "item": "bag"
   },
   {
     "id": 18,
@@ -231,7 +231,7 @@
     "win": 0,
     "lose": 0,
     "stranger": 0,
-    "bird": 1
+    "item": "apple"
   },
   {
     "id": 19,
@@ -244,7 +244,7 @@
     "win": 1,
     "lose": 0,
     "stranger": 0,
-    "bird": 0
+    "item": "mango"
   },
   {
     "id": 20,
@@ -257,6 +257,6 @@
     "win": 0,
     "lose": 1,
     "stranger": 0,
-    "bird": 0
+    "item": "boxes"
   }
 ]

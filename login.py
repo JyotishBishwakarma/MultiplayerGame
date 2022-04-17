@@ -2,6 +2,7 @@ import json
 import os
 import random
 import time
+from termcolor import colored,cprint 
 
 path = 'players' #player data in this folder
 if not os.path.exists(path):
@@ -12,7 +13,7 @@ def login():
   if question.lower() == 'n':
     signup()
   elif question.lower() == 'y':
-    print("Please Enter you account information:\n")
+    cprint("Please Enter you account information:\n","green")
     username = input("Username: ")
     password = input("Password: ")
 
@@ -28,7 +29,7 @@ def login():
           json.dump(info, file)
           
       else:
-        print("Incorrect username or password")
+        cprint("Incorrect username or password","red")
         forgetpwd = input("Did you forget password and want to reset?(y/n)")
         if forgetpwd.lower() == 'y':
           forgetpassword()
@@ -36,17 +37,17 @@ def login():
           login()
 
     except FileNotFoundError:
-      print("We cannot find that account\nPlease try again")
+      cprint("We cannot find that account\nPlease try again","red")
       login()
       
     
   else:
-    print("invalid choice")
+    cprint("invalid choice","red")
     login()
 
 
 def signup():
-  print("Welcome to the game! Sign up for an account!")
+  cprint("Welcome to the game! Sign up for an account!","green")
   username = input("Please select a username ")
   password = input("Please choose a password ")
   security_question1 = "What is your favorite animal: "
@@ -66,9 +67,9 @@ def signup():
   data["money"]=0
 
   with open(os.path.join(path, username + ".json"),"w") as infile:
-    data = json.dump(data,infile)
+    json.dump(data,infile)
 
-  print('Thanks for signing up, now you can login')
+  cprint('Thanks for signing up, now you can login',"green")
 
   login()
   
@@ -89,12 +90,12 @@ def forgetpassword():
       reset(user,new_password, confirm_password)
 
     else:
-      print('Wrong answer!!! Back to login')
+      cprint('Wrong answer!!! Back to login','red')
       login()
 
 
   except FileNotFoundError:
-    print("We cannot find that account\nPlease try again")
+    cprint("We cannot find that account\nPlease try again","red")
     login()
 
 def reset(user, newpassword, confirmpassword):
@@ -106,10 +107,10 @@ def reset(user, newpassword, confirmpassword):
     with open(os.path.join(path, user + ".json"), "w") as game:
       json.dump(x,game)
 
-    print('Password changed successfully. Please login now!!')
+    cprint('Password changed successfully. Please login now!!','green')
     login()
   else:
-    print('Mismatch between new password and confirm password! Please try again')
+    cprint('Mismatch between new password and confirm password! Please try again','red')
     forgetpassword()
 
 

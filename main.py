@@ -53,7 +53,7 @@ while True:
 
 
   if money <= 10:
-    print('Your money is very low, so you cannot go to rooms to search infinity stones! GO AND EARN MONEY FIRST\n')
+    cprint('\nYour money is very low, so you cannot go to rooms to search infinity stones! GO AND EARN MONEY FIRST\n','red')
     money = earnmoney(money)
 
   if health <=25:
@@ -105,7 +105,7 @@ while True:
 
   path ="players"
   with open(os.path.join(path, new['username'] + ".json"), "w") as infile:
-    data = json.dump(new, infile)
+    json.dump(new, infile)
 
 
 

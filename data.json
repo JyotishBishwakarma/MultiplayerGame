@@ -20,7 +20,7 @@
     "c3": 19,
     "story": "Hundreds of years ago, the Tivan Group sent workers in to mine the organic matter within the skull. Bone, brain tissue, spinal fluid. All rare resources. Highly valued in black markets across the galaxy.",
     "nav": "press 1 to go to the Quantum Realm, press 2 to go to Zen Whoberi , press 3 to go Aleppo",
-    "win": 0,
+    "win": 1,
     "lose": 0,
     "stranger": 0,
     "item": "mind"
@@ -34,7 +34,7 @@
     "story": "You are in  oceanic planet located in the Andromeda Galaxy at the Eclipsing Binary Star M31V J00443799+4129236. Some inhabitants of this planet were the rodent-like Orloni and aquatic crocodile-like creatures.",
     "nav": "press 1 to go back Planet Titan  press 2 to go sokovia, press 3 to go to Ego planet",
     "win": 0,
-    "lose": 0,
+    "lose": 1,
     "stranger": 1,
     "item": ""
   },
@@ -85,7 +85,7 @@
     "c3": 20,
     "story": "It is the home and training grounds to the Masters of the Mystic Arts, located in Kathmandu, Nepal.",
     "nav": "press 1 to go to Knowhere, press 2 to go to Sanctum Sanctorum, press 3 to go to Morag.",
-    "win": 0,
+    "win": 1,
     "lose": 0,
     "stranger": 0,
     "item": "power"
@@ -112,7 +112,7 @@
     "story": "When the mysterious cosmic being known as the Stranger visited his home star in order to conduct an experiment that would eventually cause it to go nova and destroy the twin planets orbiting it,[2] the scientist named Egros started to work on a way to save his race from the impending doom",
     "nav": "press 1 to go to the Zen Whoberi, press 2 to go Planet Titan, press 3 to go to Saakar",
     "win": 0,
-    "lose": 0,
+    "lose": 1,
     "stranger": 1,
     "item": "ego"
   },
@@ -151,7 +151,7 @@
     "story": "It  is the home planet of the Zehoberei species. It was invaded by Thanos and the Black Order, who exterminated half the population as part of his campaign to balance the universe.",
     "nav": "Press 1 to go Sokovia. Press 2 to go to Quantum reality Press 3 to go to the Kamar Taj",
     "win": 0,
-    "lose": 0,
+    "lose": 1,
     "stranger": 0,
     "item": ""
   },
@@ -203,7 +203,7 @@
     "story": "The Citadel is the palace of the Golden Tribe located in the capital city of Wakanda, the Golden City.",
     "nav": "Press 1 to go Titan planet, 2 to go back to Knowhere, 3 to go back to Zen whoberi",
     "win": 0,
-    "lose": 0,
+    "lose": 1,
     "stranger": 1,
     "item": ""
   },
@@ -306,8 +306,8 @@
     "c3": 12,
     "story": "You are in Leipzig",
     "nav": "press 1 to go to Hala  2 to go to Coney Island, press 3 to go to Zen Whoberi",
-    "win": 4,
-    "lose": 5,
+    "win": 1,
+    "lose": 0,
     "stranger": 4,
     "item": ""
   },
@@ -319,8 +319,8 @@
     "c3": 5,
     "story": "You are in Coney Island",
     "nav": "press 1 to go to Bucharest 2 to go to Zen Whoberi, press 10 to go to Sokovia",
-    "win": 5,
-    "lose": 6,
+    "win": 0,
+    "lose": 1,
     "stranger": 5,
     "item": "ego"
   }
